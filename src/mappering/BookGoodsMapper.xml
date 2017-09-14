@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="dao.BookGoodsMapper" >
+  <resultMap id="BaseResultMap" type="vo.BookGoods" >
+    <id column="ID" property="id" jdbcType="DECIMAL" />
+    <result column="NAME" property="name" jdbcType="OTHER" />
+    <result column="PRICE" property="price" jdbcType="DECIMAL" />
+    <result column="COUNT" property="count" jdbcType="DECIMAL" />
+    <result column="IMGURL" property="imgurl" jdbcType="OTHER" />
+    <association property="type" column="typeid" resultMap="typeResultMap"></association>
+  </resultMap>
+
+  <resultMap id="typeResultMap" type="vo.BookType">
+    <id column="id" property="id"></id>
+    <result column="typename" property="typename"></result>
+  </resultMap>
+
+  <sql id="Base_Column_List" >
+    ID, NAME, PRICE, TYPEID, COUNT, IMGURL
+  </sql>
+  <select id="selectAll" resultMap="BaseResultMap">
+      select * from book_goods
+  </select>
+  <select id="selectOneInfo" resultMap="BaseResultMap" parameterType="vo.BookGoods">
+      select * from book_goods where id = #{id}
+  </select>
+  <insert id="insertOne" parameterType="vo.BookGoods">
+      insert into book_goods  values(#{id},#{name},#{price},#{typeid},#{count},#{imgurl})
+  </insert>
+  <update id="updateOne" parameterType="vo.BookGoods">
+      update book_goods set name=#{name},price=#{price},typeid=#{typeid},count=#{count} where id=#{id}
+  </update>
+  <delete id="deleteOne" parameterType="vo.BookGoods">
+      delete from book_goods where id=#{id}
+  </delete>
+  <select id="selectByTypeId" parameterType="String" resultMap="BaseResultMap">
+       select g.*,t.typename from book_goods g,book_type t where g.typeid=t.id and t.typename= #{type,jdbcType=OTHER}
+  </select>
+</mapper>

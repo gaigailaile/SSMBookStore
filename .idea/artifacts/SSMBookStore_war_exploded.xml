@@ -1,0 +1,43 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SSMBookStore:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SSMBookStore_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SSMBookStore/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SSMBookStore" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/mybatis/mybatis资源/ssm lib包/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar" />
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/mybatis/mybatis资源/ssm lib包/com.springsource.net.sf.cglib-2.2.0.jar" />
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/mybatis/mybatis资源/ssm lib包/com.springsource.org.aopalliance-1.0.0.jar" />
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/mybatis/mybatis资源/ssm lib包/com.springsource.org.aspectj.tools-1.6.6.RELEASE.jar" />
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/mybatis/mybatis资源/ssm lib包/commons-collections-3.1.jar" />
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/mybatis/mybatis资源/ssm lib包/commons-dbcp-1.2.2.jar" />
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/mybatis/mybatis资源/ssm lib包/commons-logging.jar" />
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/mybatis/mybatis资源/ssm lib包/commons-pool.jar" />
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/mybatis/mybatis资源/ssm lib包/jstl.jar" />
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/mybatis/mybatis资源/ssm lib包/mybatis-3.2.5.jar" />
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/mybatis/mybatis资源/ssm lib包/mybatis-spring-1.2.2.jar" />
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/mybatis/mybatis资源/ssm lib包/ojdbc6.jar" />
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/mybatis/mybatis资源/ssm lib包/org.springframework.transaction-3.0.2.RELEASE.jar" />
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/mybatis/mybatis资源/ssm lib包/spring-aop-4.1.0.RELEASE.jar" />
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/mybatis/mybatis资源/ssm lib包/spring-aspects-4.1.0.RELEASE.jar" />
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/mybatis/mybatis资源/ssm lib包/spring-beans-4.1.0.RELEASE.jar" />
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/mybatis/mybatis资源/ssm lib包/spring-context-4.1.0.RELEASE.jar" />
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/mybatis/mybatis资源/ssm lib包/spring-context-support-4.1.0.RELEASE.jar" />
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/mybatis/mybatis资源/ssm lib包/spring-core-4.1.0.RELEASE.jar" />
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/mybatis/mybatis资源/ssm lib包/spring-expression-4.1.0.RELEASE.jar" />
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/mybatis/mybatis资源/ssm lib包/spring-jdbc-4.1.0.RELEASE.jar" />
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/mybatis/mybatis资源/ssm lib包/spring-oxm-4.1.0.RELEASE.jar" />
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/mybatis/mybatis资源/ssm lib包/spring-tx-4.1.0.RELEASE.jar" />
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/mybatis/mybatis资源/ssm lib包/spring-web-4.1.0.RELEASE.jar" />
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/mybatis/mybatis资源/ssm lib包/spring-webmvc-4.1.0.RELEASE.jar" />
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/mybatis/mybatis资源/ssm lib包/standard.jar" />
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/spring/lib/上传包/commons-fileupload-1.2.1.jar" />
+          <element id="file-copy" path="E:/培训资料/框架/框架/框架/spring/lib/上传包/commons-io-2.0.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
